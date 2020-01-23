@@ -14,3 +14,8 @@ def assign_rooms(names)
   }
   assigned_people_with_room
 end
+
+def printer(names)
+  puts batch_badge_creator
+  puts assign_rooms
+end
