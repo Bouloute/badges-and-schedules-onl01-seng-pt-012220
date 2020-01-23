@@ -12,5 +12,5 @@ def assign_rooms(names)
   names.each_with_index{|name, index|
     assigned_people_with_room.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
   }
-   puts assigned_people_with_room
+   assigned_people_with_room
 end
