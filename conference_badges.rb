@@ -1,4 +1,4 @@
 # Write your code here.
-def badge_makert(names)
-  names.collect{|name| "Hello, my name is #{name}."}
+def badge_makert(name)
+  puts("Hello, my name is #{name}.")
 end 
